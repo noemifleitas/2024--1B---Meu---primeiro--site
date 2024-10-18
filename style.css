@@ -1,5 +1,42 @@
-:root{--platina: #d8e2dcff;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --platina: #d8e2dcff;
     --rosa-champanhe: #ffe5d9ff;
     --rosa: #ffcad4ff;
     --flor-de-cerejeira-rosa: #f4acb7ff;
-    --mountbatten-rosa: #9d8189ff;}
+    --mountbatten-rosa: #9d8189ff;
+    --fonte-titulo:"Lobster", sans-serif;
+    --fonte-texto:"Nanum Gothic", sans-serif;
+}
+
+body{
+    background-color: var(--platina);
+    font-family: var(--fonte-texto);
+}
+
+
+.cabecalho-logo{
+    width: 10%;
+    border-radius: 100%;
+    padding:lem;
+}
+
+.cabecalho-link{
+text-decoration: none;
+color: var(--rosa-champanhe);
+font-size: 2em;
+margin-right: 1em;
+}
+
+ .cabecalho-link:hover{
+    color: var(--rosa);
+    font-size: 1.9em;
+    transition: 0.3s;
+ }  
+
+   
